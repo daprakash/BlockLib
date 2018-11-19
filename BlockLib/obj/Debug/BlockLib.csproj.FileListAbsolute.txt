@@ -1,0 +1,9 @@
+C:\Users\VladP\source\repos\BlockLib\BlockLib\bin\Debug\BlockLib.dll
+C:\Users\VladP\source\repos\BlockLib\BlockLib\bin\Debug\BlockLib.pdb
+C:\Users\VladP\source\repos\BlockLib\BlockLib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\VladP\source\repos\BlockLib\BlockLib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\VladP\source\repos\BlockLib\BlockLib\obj\Debug\BlockLib.csprojAssemblyReference.cache
+C:\Users\VladP\source\repos\BlockLib\BlockLib\obj\Debug\BlockLib.csproj.CoreCompileInputs.cache
+C:\Users\VladP\source\repos\BlockLib\BlockLib\obj\Debug\BlockLib.csproj.CopyComplete
+C:\Users\VladP\source\repos\BlockLib\BlockLib\obj\Debug\BlockLib.dll
+C:\Users\VladP\source\repos\BlockLib\BlockLib\obj\Debug\BlockLib.pdb

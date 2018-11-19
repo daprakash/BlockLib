@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace BlockLib
 {
-    public class JsonCom
+    class JsonCom
     {
-      public static JObject InvokeMethod(HttpWebRequest web, string a_sMethod, params object[] a_params)
+      public static string InvokeMethod(HttpWebRequest web, string a_sMethod, params object[] a_params)
       {
          HttpWebRequest _Web = web;
 
@@ -69,7 +69,8 @@ namespace BlockLib
                {
                   using (StreamReader sr = new StreamReader(str))
                   {
-                     return JsonConvert.DeserializeObject<JObject>(sr.ReadToEnd());
+                     return sr.ReadToEndAsync().Result;
+                     //return JsonConvert.DeserializeObject<JObject>(sr.ReadToEnd());
                   }
                }
             }
@@ -81,10 +82,11 @@ namespace BlockLib
             {
                using (StreamReader sr = new StreamReader(str))
                {
-                  JObject tmp = (JObject)sr.ReadToEnd();
+                  //JObject tmp = (JObject)sr.ReadToEnd();
 
-                  var tempRet = JsonConvert.DeserializeObject<JObject>(tmp.ToString());
-                  return tempRet;
+                  return sr.ReadToEndAsync().Result;
+                  //return JsonConvert.DeserializeObject<JObject>(sr.ReadToEnd());
+
                }
             }
 
